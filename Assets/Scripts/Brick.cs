@@ -3,18 +3,38 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-//TODO not sure if I want a higher level of abstraction than this. 
-public class Brick : MonoBehaviour
+public abstract class Brick : MonoBehaviour
 {
     //Spawn Powerups
     //Check the visuals
 
+    protected int hitsToBreak = 3;
     public static Action<Brick> OnBrickHit;
     public static Action<Brick> OnBrickBroken;
 
 
-    public void TakeDamage(int ammount)
+    public abstract void TakeDamage(int ammount);
+
+    protected virtual void Recycle()
     {
 
+        this.gameObject.SetActive(false);
     }
+
+    protected virtual void Recycle(float delay)
+    {
+        StartCoroutine(RecycleAfter(delay));
+
+    }
+
+    protected abstract void UpdateVisuals();
+
+
+    IEnumerator RecycleAfter(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+    }
+
+
 }

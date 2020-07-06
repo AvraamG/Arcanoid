@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &144882389249185894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8990605440850902729}
+  - component: {fileID: 5701701097052508267}
+  m_Layer: 0
+  m_Name: AudioAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8990605440850902729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144882389249185894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 443, y: 301.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5701701097052508267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144882389249185894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77eab1892b41d543b29727bf5d6e6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffectCollection:
+  - soundEffectName: 1
+    audioClip: {fileID: 8300000, guid: 97134fae0347288429aeb7f8c803a79b, type: 3}
+  - soundEffectName: 2
+    audioClip: {fileID: 8300000, guid: e63148fae8a74324d85ba396351a3552, type: 3}
+  - soundEffectName: 4
+    audioClip: {fileID: 8300000, guid: 9947316b65067a547b80e7f9d6381ab3, type: 3}
+  - soundEffectName: 7
+    audioClip: {fileID: 8300000, guid: a18985b811da24243900e1a3dbe82c25, type: 3}
+  backgroundMusicCollection:
+  - loopedMusicName: 1
+    audioClip: {fileID: 8300000, guid: bb92e567def04274db94f83f9e7cda7e, type: 3}
+  soundEffectFallback:
+    soundEffectName: 0
+    audioClip: {fileID: 8300000, guid: e63148fae8a74324d85ba396351a3552, type: 3}
+  loopFallback:
+    loopedMusicName: 0
+    audioClip: {fileID: 8300000, guid: bb92e567def04274db94f83f9e7cda7e, type: 3}

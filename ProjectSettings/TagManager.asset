@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Pin
+  - Ball
+  - Paddle
+  - Brick
   layers:
   - Default
   - TransparentFX
@@ -49,4 +53,10 @@ TagManager:
     locked: 0
   - name: Ball
     uniqueID: 3477912635
+    locked: 0
+  - name: Brick
+    uniqueID: 2919026399
+    locked: 0
+  - name: Wall
+    uniqueID: 3332119091
     locked: 0
