@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Pin
+  - Ball
+  - Paddle
+  - Brick
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 4214086515
+    locked: 0
+  - name: Paddle
+    uniqueID: 202586421
+    locked: 0
+  - name: Ball
+    uniqueID: 3477912635
+    locked: 0
+  - name: Brick
+    uniqueID: 2919026399
+    locked: 0
+  - name: Wall
+    uniqueID: 3332119091
+    locked: 0

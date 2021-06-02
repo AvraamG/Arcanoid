@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd22c387b67d14a46b7c24e9358b58df, type: 3}
+  m_Name: Huntress
+  m_EditorClassIdentifier: 
+  avatarID: 0
+  avatarName: Huntress
+  AvatarQuote: Patience, Discipline.
+  avatarIllustration: {fileID: 21300000, guid: 75764ca5073e62c459be7e6f4d0cc9fe, type: 3}
+  paddleIllustration: {fileID: 21300000, guid: 59818815998750d49b120bc2427e3cab, type: 3}
+  ballIllustration: {fileID: 21300000, guid: 9e8a420e7bf96564eb070266fb983408, type: 3}
+  ballMaterial: {fileID: 6200000, guid: 85f523bd09fa88a4984e41c2e2000b2e, type: 2}
+  movementSpeed: 1
+  damageModifier: 1
